@@ -6,13 +6,13 @@
  - ERROR >> could not open file "C:\Users\...\company_dim.csv" for reading: Permission denied
  
  1. Drop the Database 
- DROP DATABASE IF EXISTS sql_course;
+ DROP DATABASE IF EXISTS job_analysis;
  2. Repeat steps to create database and load table schemas
  - 1_create_database.sql
  - 2_create_tables.sql
  3. Open pgAdmin
- 4. In Object Explorer (left-hand pane), navigate to `sql_course` database
- 5. Right-click `sql_course` and select `PSQL Tool`
+ 4. In Object Explorer (left-hand pane), navigate to `job_analysis` database
+ 5. Right-click `job_analysis` and select `PSQL Tool`
  - This opens a terminal window to write the following code
  6. Get the absolute file path of your csv files
  1. Find path by right-clicking a CSV file in VS Code and selecting “Copy Path”
