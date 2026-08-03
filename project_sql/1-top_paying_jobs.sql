@@ -8,13 +8,13 @@
 --
 SELECT DISTINCT job_id,
     job_title,
-    cd.name as company_name,
+    name as company_name,
     job_location,
     job_schedule_type,
     salary_year_avg,
     job_posted_date
-FROM job_postings_fact as jp
-    LEFT JOIN company_dim as cd ON jp.company_id = cd.company_id
+FROM job_postings_fact 
+    LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE (
         job_title_short = 'Data Analyst'
         AND salary_year_avg IS NOT NULL
