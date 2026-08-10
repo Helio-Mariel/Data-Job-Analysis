@@ -10,7 +10,7 @@ Driven by a quest to navigate the data analyst job market more effectively, this
 
 <!-- Data hails from my SQL Course. It's packed with insights on job titles, salaries, locations, and essential skills.
 --> 
-The questions I wanted to answer through my SQL queries were:
+### The questions I wanted to answer through my SQL queries were:
 1. What are the top-paying data analyst jobs?
 2. What skills are required for these top-paying jobs?
 3. What skills are most in demand for data analysts?
